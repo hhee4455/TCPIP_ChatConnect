@@ -7,7 +7,7 @@ import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import { User } from "@prisma/client";
 import { CldUploadButton } from "next-cloudinary";
 
-import Input from "../inputs/Input";
+import Input from "../inputs/input";
 import Modal from "../modals/Modal";
 import Button from "../Button";
 import Image from "next/image";
@@ -117,7 +117,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                   <CldUploadButton
                     options={{ maxFiles: 1 }}
                     onUpload={handleUpload}
-                    uploadPreset="idcigin5"
+                    uploadPreset="pgc9ehd5"
                   >
                     <Button disabled={isLoading} secondary type="button">
                       Change
